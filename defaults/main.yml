@@ -1,0 +1,12 @@
+---
+# defaults file for kvm_provision
+base_image_name: debian12-template.qcow2
+base_image_dir: "/var/lib/libvirt/images" 
+libvirt_pool_dir: "/var/lib/libvirt/images"
+vm_name: debain_12_dev
+vm_vcpus: 2
+vm_ram_mb: 2048
+vm_net: bridged-network
+vm_user: bigppman
+vm_pass: stoopid
+cleanup_tmp: no
